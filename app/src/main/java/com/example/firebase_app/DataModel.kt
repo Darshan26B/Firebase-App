@@ -2,15 +2,15 @@ package com.example.firebase_app
 
 class DataModel {
 
-    lateinit var Key:String
-    lateinit var Name:String
-    lateinit var Contact:String
-    lateinit var Course:String
+    lateinit var key:String
+    lateinit var name:String
+    lateinit var contact:String
+    lateinit var course:String
 
-    constructor(Key: String, Name: String, Contact: String, Course: String) {
-        this.Key = Key
-        this.Name = Name
-        this.Contact = Contact
-        this.Course = Course
+    constructor(key: String, name: String, contact: String, course: String) {
+        this.key = key
+        this.name = name
+        this.contact = contact
+        this.course = course
     }
 }
